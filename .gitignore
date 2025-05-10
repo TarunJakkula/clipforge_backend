@@ -1,0 +1,10 @@
+venv
+.env
+output_clips
+remixed_clips
+brolls_added
+prompt_1_2
+steps.txt
+/preset_videos_processing
+project_clips
+**/__pycache__/

@@ -1,0 +1,3 @@
+Analyze the provided transcript of a remixed video. Based on the emotional tone, context, and themes of the content, 
+suggest the most suitable background music genre or style.
+Return a single keyword from the provided list. The music should align with the mood and context of the video.

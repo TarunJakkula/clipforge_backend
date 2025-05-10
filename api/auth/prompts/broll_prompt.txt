@@ -1,0 +1,27 @@
+B-ROLL PROMPT
+Objective: Enhance remixed video segments by strategically integrating B-roll footage to elevate viewer engagement and comprehension. Only use B-rolls from the labeled bank provided.
+
+Instructions:
+1. Analyze the provided remixed video transcript.
+2. Identify key moments where B-roll enhances understanding or emotional impact.
+3. Select B-roll ONLY from the following AVAILABLE LABLES.*
+4. Ensure B-roll integration adheres to these rules:
+    - Frequency: Add 0–10 B-rolls per video.
+    - Duration: Each B-roll lasts certain duration so that it makes sense seconds.
+    - Spacing: Maintain a gap of at least 0-8 seconds between consecutive B-rolls.
+    - Relevance: Match B-roll labels to transcript keywords or themes.
+    - Natural Placement: Insert B-roll at natural pauses or transitions.
+    - Avoid Repetition: Do not reuse the same B-roll in a single video. Reuse is allowed across videos but in varied sequences.
+
+B-Roll Placement Instructions:
+    - ONLY GET LABELS FROM THE GIVEN LIST and GIVE RESPONSE ONLY JSON, DO NOT ADD ANY COMMENTS OR SPECIAL CHARACTERS
+    - Context Matching: Match B-roll descriptions from the labeled bank to the content and tone of the transcript. Select only clips that visually reinforce the transcript.
+    - Frequency: Add 0–10 B-rolls per video, ensuring relevance.
+    Do not place consecutive B-rolls, maintain a minimum gap of 5–8 seconds between placements.
+    - Duration: Each B-roll clip should last 2-3 seconds.
+    - Natural Integration: Add B-roll at natural pauses, transitions, or keyword moments to maintain the video's flow. Avoid abrupt or unnatural interruptions.
+    - Avoid Repetition: Do not reuse the same B-roll clip in the same video. If reusing B-roll in different videos, ensure a varied order.
+
+Output Format:
+- 'timestamp': The start and end time of the B-roll in seconds with millisecond precision.
+- 'keyword': The single specific keyword(s) from the list provided that triggered the B-roll placement.

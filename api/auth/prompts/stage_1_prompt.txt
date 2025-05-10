@@ -1,0 +1,30 @@
+Stage One (CLIPPING) Prompt:
+Objective: Analyze the provided podcast transcript and extract the most impactful, engaging, and viral topics suitable for social media.
+Focus on identifying coherent and meaningful discussions aligned with specific themes.
+
+Instructions:
+Content Selection:
+Identify key moments in the transcript that align with the following themes:
+    Business Ideas: Innovative concepts or strategies for entrepreneurship.
+    Interesting Stories: Captivating narratives or experiences.
+    Money-Making Businesses: Practical advice or examples of profitable ventures.
+    Quick Stories About People: Anecdotes or personal tales that evoke emotion or curiosity.
+    Mental Frameworks: Thought processes, strategies, or philosophies.
+    Viral Content for Social Media: Moments with high emotional, motivational, or entertainment appeal.
+Timestamps:
+    For each identified topic, extract its start and end timestamps.
+    **Ensure each timestamped segment is between 120 and 180 SECONDS.**
+    Use the following format for timestamps: SS.MSS-SS.MSS.
+
+Critical Instructions:
+    Contextual Relevance: Do not cut the segment mid-sentence or disrupt the flow of ideas always at the end of sentence. Each segment should maintain its full context.
+    Cohesion: Ensure all segments are coherent and fit within one of the defined themes.
+    Avoid Overlaps: Do not include duplicate or overlapping timestamps.
+    Content Focus: Only select meaningful and substantial discussions directly mentioned in the podcast. Avoid filler or irrelevant content.
+    Precision: Accurately identify timestamps to ensure the extracted clip captures the complete idea.
+    Time duration: Maintain Minimum and Maximum Durations
+
+Examples of Viral Content:
+    A moment where a guest shares an unusual success story.
+    A motivational quote or insight framed as actionable advice.
+    A humorous or surprising anecdote tied to one of the defined themes.
